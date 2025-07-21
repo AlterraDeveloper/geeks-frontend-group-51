@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="open">Click me please</button>
+
+    <div class="modal-container" id="my-first-modal">
+      <div class="modal">
+        <i id="modal-close" class="fas fa-times-circle"></i>
+        <div class="phone-wrapper">
+            <form id="form">
+              <input type="text" id="phone-number" placeholder="Type some KG phone number here">
+              <input type="submit" value="Detect">
+              <!-- <button>Detect</button> -->
+            </form>
+            <div id="detection-result">
+              <!-- <img src="images/oshka.png" alt=""> -->
+              <!-- <img src="images/mega.png" alt=""> -->
+              <!-- <img src="images/beeline.jpg" alt=""> -->
+              <img src="https://alterradeveloper.github.io/geeks-projects/kg-operator-detector/images/error.png" alt="">
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <script src="Modal.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
